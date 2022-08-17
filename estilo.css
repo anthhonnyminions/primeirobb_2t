@@ -1,5 +1,7 @@
 body {
     background: #AABBBB;
+    margin: 0;
+    padding: 0;
  }
  h1 {
     text-align: center;
@@ -62,5 +64,15 @@ body {
     width: 100%;
     height: 200px;
     background: rgb(111, 199, 94);
-    
- 
+ }
+.rodape {
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    color: blueviolet;
+    width: 100%;
+    left: 0;
+    height: 40px;
+    display: flex;
+    justify-self: center;
+}
